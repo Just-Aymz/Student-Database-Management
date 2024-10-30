@@ -16,7 +16,6 @@ capstone_project.py: The main Python script to interact with the SQL database. I
 # **Setup Instructions**
 
 1. **Database Creation**:
-
   * Run the create_database.sql script to set up the database structure. This script defines tables and relationships necessary for the database.
 
 2. **Python Environment**:
@@ -26,20 +25,20 @@ capstone_project.py: The main Python script to interact with the SQL database. I
   pip install tabulate
   ```
 
-3. Database File:
-* The database file should be named HyperionDev.db and located in the same directory as the scripts for easy access. This name is specified within the Python script.
+3. **Database File**:
+ * The database file should be named HyperionDev.db and located in the same directory as the scripts for easy access. This name is specified within the Python script.
 
 
 # **Usage**
 **Running the Script**
   1. **Main Interaction (capstone_project.py)**:
-  * Run capstone_project.py to interact with the database.
-  * The script offers options to view and query specific data by typing commands, such as:
-    * ```vs <student_id>```: View subjects taken by a student.
-    * ```la <firstname> <surname>```: Lookup address by student name.
-    * ```lr <student_id>```: List reviews for a given student.
-    * ```lnc```: List students who haven't completed their course.
-    * ```lf```: List students who completed their course with a mark ≤ 30.
+   * Run capstone_project.py to interact with the database.
+   * The script offers options to view and query specific data by typing commands, such as:
+     * ```vs <student_id>```: View subjects taken by a student.
+     * ```la <firstname> <surname>```: Lookup address by student name.
+     * ```lr <student_id>```: List reviews for a given student.
+     * ```lnc```: List students who haven't completed their course.
+     * ```lf```: List students who completed their course with a mark ≤ 30.
 **Saving Data**
 The capstone_project.py script prompts the user to save query results in JSON or XML format. Simply enter a filename with the .json or .xml extension when prompted.
 
